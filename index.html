@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&display=swap" rel="stylesheet">
+  <script src="javascript.js"></script>
+  <title>Sign-up Project</title>
+</head>
+
+<body>
+  <div class="img-container-flex">
+    <div class="img-container">
+      <div class="logoBackground"></div>
+      <img src="mobilave.jpg" alt="train station with a bench" class="mobilave">
+      <img src="trainmanlogo.png" alt="trainman smiling" class="logoImg">
+      <div class="logoText">Trainman Industries</div>
+    </div>
+
+    <div class="right-container">
+      <div class="container-one">
+        <h1 class="description">“You don't get it. I built this place. Down here I make the rules. Down here I make the
+          threats. Down here... I'm God.”</h1>
+        <h1 class="description">Sign up for the Mobil Avenue Express Pass today..</h1>
+      </div>
+
+      <div class="container-two">
+        <h1 class="accountTitle">Create an account</h1>
+
+        <form action="action_page.php" method="get">
+          <div>
+            <label for="fname">FIRST NAME</label>
+            <input type="text" id="fname" name="fname" placeholder="Thomas" required>
+          </div>
+          <div>
+            <label for="lname">LAST NAME</label>
+            <input type="text" id="lname" name="lname" placeholder="Anderson" required>
+          </div>
+          <div>
+            <label for="email">EMAIL</label>
+            <input type="text" id="email" name="email" placeholder="theone225@gmail.com" required>
+          </div>
+          <div>
+            <label for="phone">PHONE NUMBER</label>
+            <input type="tel" id="phone" name="phone" placeholder="(123)-456-7890" required>
+          </div>
+          <div>
+            <label for="pass">PASSWORD</label>
+            <input type="password" id="pass" name="pass" maxlength="12" required>
+          </div>
+          <div>
+            <label for="confirmpass">CONFIRM PASSWORD</label>
+            <input type="password" id="confirmpass" name="confirmpass" maxlength="12" required>
+          </div>
+      </div>
+      <div class="container-three">
+        <input name="createAccount" type="submit" value="Create Account" class="createAccountBtn">
+        <p>Already have an account? <a href="index.html">Log in</a></p>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>

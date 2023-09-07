@@ -1,0 +1,76 @@
+* {
+  font-family: 'DM Sans', sans-serif;
+}
+
+h1 {
+  margin: 0;
+}
+
+.logoBackground {
+  position: absolute;
+    left: 0;
+    right: 0;
+    top: 9%;
+    bottom: 79%;
+    background: black;
+    opacity: 0.5;
+    width: 100%;
+}
+
+.img-container {
+  position: relative;
+  display: inline-block;
+}
+
+.img-container img {
+  display: block;
+  max-width: 400px;
+  height: auto;
+}
+
+.logoText {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  padding: 20px 100%;
+  font-size: 20px;
+  text-align: center;
+}
+
+.logoImg {
+  width: 100px;
+  position: absolute;
+  top: 9%;
+  left: 15%;
+}
+
+.img-container-flex {
+  display: flex;
+}
+
+.right-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.container-one {
+  background-color:rgb(242, 242, 242);
+  margin: 50px 0 20px 0;
+  align-items: left;
+}
+
+.container-three {
+  background-color:rgb(242, 242, 242);
+}
+
+.createAccountBtn {
+  color:#fff;
+  font-weight: bolder;
+  background-color: #596D48;
+  padding: 10px 25px;
+  border-radius: 5%;
+  border: 0;
+}
